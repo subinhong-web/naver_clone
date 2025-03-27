@@ -1,0 +1,176 @@
+        @font-face {
+            font-family: 'MaplestoryOTFBold';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: #f6f8fa;
+        }
+
+        /* 헤더 시작 */
+        .header_top,
+        .header_right,
+        .header_ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header_ul>li>a,
+        .main_login_btn>button>a {
+            text-decoration: none;
+        }
+
+        .header_ul>li {
+            list-style: none;
+        }
+
+        .header_li>a {
+            color: #000;
+            font-size: 14px;
+            padding: 30px;
+        }
+
+        .header_li>a:hover {
+            text-decoration: underline;
+        }
+
+        .header_right {
+            padding-right: 30px;
+        }
+
+        .top_login>button {
+            background-color: #21c531;
+            color: white;
+            border: none;
+            width: 85px;
+            height: 35px;
+            font-size: 14px;
+            border-radius: 2px;
+        }
+
+        .top_login>button:hover {
+            box-shadow: 2px 2px 10px #6feb7b;
+        }
+
+        .header_top>h1 {
+            border: 2px solid #000;
+            font-size: 20px;
+            border-radius: 50px;
+            padding: 0 8px;
+        }
+
+        .header_top {
+            margin: 20px 20px;
+            padding-bottom: 75px;
+        }
+
+        .main_top_right>p {
+            line-height: 50px;
+        }
+
+        h1 {
+            font-family: 'MaplestoryOTFBold';
+        }
+
+        /* 헤더 끝 */
+
+        /* 메인 시작 */
+        .main_top {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0 430px;
+        }
+
+        h2>img {
+            width: 540px;
+            height: 695px;
+        }
+
+        .main_top_right_text {
+            font-size: 50px;
+            font-weight: 500;
+        }
+
+        .main_login_btn>button {
+            border: none;
+            width: 360px;
+            height: 50px;
+        }
+
+        .main_login_btn>.btn_1,
+        .main_login_btn>.btn_2 {
+            margin: 4px;
+        }
+
+        .main_top>.main_login_btn>button>a {
+            text-decoration: none;
+        }
+
+        .main_login_btn>.btn_1 {
+            background-color: #21c531;
+            border-radius: 2px;
+        }
+
+        .main_login_btn>.btn_1>a {
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+        }
+
+        .main_login_btn>.btn_2>a {
+            color: rgb(10, 10, 10);
+            font-size: 16px;
+        }
+
+        .main_login_btn>.btn_1:hover {
+            box-shadow: 2px 2px 10px #6feb7b;
+        }
+
+        .main_login_btn>.btn_2 {
+            border-radius: 2px;
+            background-color: rgb(253, 250, 250);
+        }
+
+        .main_login_btn>.btn_2:hover {
+            box-shadow: 2px 2px 10px #b6b9b6;
+        }
+
+        .main_p_search {
+            font-size: 13px;
+            line-height: 26px;
+        }
+
+        .main_p_search>p>a {
+            color: #21c531;
+            font-weight: 600;
+        }
+
+        .main_bottom {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: url(./네이버\ 밴드\ 메인2.jpg);
+            height: 540px;
+        }
+
+        h3 {
+            color: rgb(255, 252, 252);
+            font-size: 40px;
+            font-weight: 400;
+        }
+
+        span {
+            color: rgb(255, 252, 252);
+            line-height: 30px;
+        }
+
+        /* 메인 끝 */
