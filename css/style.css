@@ -23,6 +23,12 @@
             align-items: center;
         }
 
+        #language_box {
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+        }
+
         .header_ul>li>a,
         .main_login_btn>button>a {
             text-decoration: none;
@@ -54,6 +60,7 @@
             height: 35px;
             font-size: 14px;
             border-radius: 2px;
+            cursor: pointer;
         }
 
         .top_login>button:hover {
@@ -174,3 +181,4 @@
         }
 
         /* 메인 끝 */
+
